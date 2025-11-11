@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROWD</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+        <a href="#"><svg role="img" aria-label="상단로고">
+            <use href="./svg/_sprite.svg#상단로고">
+        </svg></a>
+
+        <div class="search-box">
+            <input name="search" placeholder="찾으시는 상품이 있으신가요?">
+            <svg class="search-icon" role="img" aria-label="돋보기">
+                <use href="./svg/_sprite.svg#돋보기">
+            </svg>
+        </div>
+
+        <ul class="user-menu">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        </div>
+
+        
+        <nav class="nav-container">
+            <ul class="menu">
+            <li><a href="subpage1.html">상의</a>
+                <ul class="submenu">
+                    <li><a href="#">맨투맨/긴팔</a></li>
+                    <li><a href="#">후드/집업</a></li>
+                    <li><a href="#">셔츠</a></li>
+                    <li><a href="#">반팔</a></li>
+                </ul>
+            </li>
+            <li><a href="#">하의</a>
+                <ul class="submenu">
+                    <li><a href="#">와이드</a></li>
+                    <li><a href="#">세미와이드</a></li>
+                    <li><a href="#">벌룬</a></li>
+                    <li><a href="#">조거/스탠다드</a></li>
+                    <li><a href="#">반바지</a></li>
+                </ul>
+            </li>
+            <li><a href="#">아우터</a>
+                <ul class="submenu">
+                    <li><a href="#">코트</a></li>
+                    <li><a href="#">점퍼</a></li>
+                    <li><a href="#">야상</a></li>
+                    <li><a href="#">재킷</a></li>
+                    <li><a href="#">가디건</a></li>
+                </ul>
+            </li>
+            <li><a href="#">악세서리</a>
+                <ul class="submenu">
+                    <li><a href="#">모자</a></li>
+                    <li><a href="#">머플러</a></li>
+                    <li><a href="#">벨트</a></li>
+                    <li><a href="#">양말</a></li>
+                    <li><a href="#">주얼리</a></li>
+                </ul>
+            </li>
+            <li><a href="#">신발</a>
+                <ul class="submenu">
+                    <li><a href="#">운동화</a></li>
+                    <li><a href="#">캔버스화</a></li>
+                    <li><a href="#">스니커즈</a></li>
+                    <li><a href="#">로퍼</a></li>
+                    <li><a href="#">구두</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-wrap">
+                    <a href="#"><img src="img/banner_img1.png" alt="블랙 프라이데이 배너, 최대 70% 할인 행사 진행중"></a>
+                    <a href="#"><img src="img/banner_img2.png" alt="in nature, 클릭 시 아우터 페이지로 이동"></a>
+                    <a href="#"><img src="img/banner_img3.png" alt="BE COMFORTALBE, 클릭 시 상의 페이지로 이동"></a>
+                    <a href="#"><img src="img/banner_img4.png" alt="나를 나답게"></a>
+            </div>
+        </section>
+
+        <h2 class="section-title">25 F/W 신상품</h2>
+        <section class="section-product"><ul>
+            <!-- product-card 샘플
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="" alt=""></a></div>
+                <div class="product-info">
+                    <a href="#"><p class="product-name">(상품명)</p></a>
+                    <p class="product-discount">(할인률)%</p>
+                    <p class="product-price"><s>(상품 원가, 단위 X)</s></p>
+                    <p class="product-discount_price">(상품 할인가, 단위 X)</p>
+                    <p class="product-review">리뷰 (갯수, 단위 X)</p>
+                </div>
+            </div> -->
+            <li class="product-grid">
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            
+        </li>
+            <li class="product-grid">
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            
+        </li>
+            <li class="product-grid">
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플1.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">갈색 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><a href="#"><img src="img/상품샘플other.jpeg" alt="맨투맨"></a></div>
+                <div class="product-info">  
+                    <a href="#"><p class="product-name">크림색 캐릭터 로고 맨투맨</p></a>
+                    <p class="product-discount">30%</p>
+                    <p class="product-price"><s>39,800</s></p>
+                    <p class="product-discount_price">27,800</p>
+                    <p class="product-review">리뷰 3</p>
+                </div>
+            </div>
+            
+        </li>
+    </ul></section>
+    </main>
+
+    <footer>
+        <ul class="footer-top">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">협업/제휴/협찬(문의:abc123@abc.com)</a>
+        </ul>
+        <div class="footer-middle">
+            <dl>
+                <dt>SNS</dt>
+                <dd>@insta</dd>
+            </dl>
+            <dl>
+                <dt>고객센터</dt>
+                <dd>전화문의 1234-5678</dd>
+                <span>※월~금 <time datetime="10:00 - 17:30">10:00 - 17:30</time> / 점심 <time datetime="13:00 - 14:00">13:00
+                        - 14:00</time> (토,일/공휴일
+                    휴무)</span>
+            </dl>
+        </div>
+        <p>발꼬락주식회사 CEO. 이창민 business no.123-12-12345 [사업자정보확인]</p>
+        <p>tel. 1234-1234 fax.123-1234-1234 address. 광주 서구 상무중앙로44</p>
+        <p>해당 사이트에서 판매되는 모든 상품에 환불 및 모든 민원의 책임은 본사에 있습니다. 담당자: 이창민</p>
+    </footer>
+
+    <script>
+	
+        const banner = document.querySelector('.banner-wrap');
+		while (banner.scrollWidth < window.innerWidth * 2) {
+		banner.innerHTML += banner.innerHTML;
+		}
+        let pos = 0;
+        const speed = 1;
+
+        let paused = false;
+        banner.addEventListener('mouseenter', () => paused = true);
+        banner.addEventListener('mouseleave', () => paused = false);
+
+        function loop() {
+            if (paused) return requestAnimationFrame(loop);
+            pos -= speed;
+            const resetPoint = banner.scrollWidth / 2;
+            if (Math.abs(pos) >= resetPoint) pos = 0;
+            banner.style.transform = `translateX(${pos}px)`;
+            requestAnimationFrame(loop);
+        }
+        loop();
+    </script>
+</body>
+
+</html>
