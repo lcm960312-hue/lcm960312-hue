@@ -1,6 +1,10 @@
 ## **PROJECT CROWD**
 
-![CROWD LOGO](
+![CROWD LOGO](https://github.com/lcm960312-hue/lcm960312-hue/issues/1#issue-3610411593)
+
+
+PROJECT CROWD.
+의류 브랜드로써 유통하는 상품들을 소비자들에게 판매하기 위한 목적으로 설립하였습니다.
 
 <!--
 **lcm960312-hue/lcm960312-hue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
